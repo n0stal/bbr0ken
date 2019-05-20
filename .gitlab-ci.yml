@@ -1,6 +1,6 @@
 before_script:
   - uname -a
-  - apt-get update -qq && apt-get install -y -qq sqlite3 libsqlite3-dev libmicrohttpd-dev dnsutils bind-utils
+  - apt-get update -qq && apt-get install -y -qq sqlite3 libsqlite3-dev libmicrohttpd-dev dnsutils net-tools
   - touch zz.$(date +%T-%F)
   - ls
   - cat /etc/hosts
